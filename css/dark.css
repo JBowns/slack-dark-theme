@@ -1,0 +1,52 @@
+@import "https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css";
+
+:root {
+  /* Modify these to change your theme colors: */
+  --primary: #09F;
+  --text: #CCC;
+  --background: #080808;
+  --background-elevated: #222;
+}
+.c-file_container {
+  background: #363636;
+  border: 1px solid #949494;
+}
+.c-file__title {
+  color: #d0d0d0;
+}
+.c-file__meta {
+  color: #d0d0d0;
+}
+.c-file__action_button, .c-file__action_button:link, .c-file__action_button:visited {
+  color: #d2d2d2;
+}
+.c-file__action_button {
+  background-color: #363636;
+}
+.c-file__action_button:after {
+  border: 1px solid #949494;
+}
+.c-file__slide--meta {
+  background: #363636;
+}
+.c-file__meta_swap {
+  background-color: #363636;
+}
+.c-message__reply_bar:hover, .c-message__reply_bar--focus {
+  background-color: #363636;
+  border-color: #949494;
+}
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
+  background-color: #363636;
+}
+a:link, a:visited {
+  color: #ffffff;
+}
+.c-member_slug--link, .c-mrkdwn__member--link, .c-mrkdwn__subteam--link {
+  background: #696969;
+  color: #0576b9;
+}
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+  z-index: 200;
+  background: #222222;
+}
