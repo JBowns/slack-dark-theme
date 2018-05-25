@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-document.addEventListener('DOMContentLoaded', function () {
+window.document.addEventListener('DOMContentLoaded', function () {
 
   const css = fs.readFileSync(path.join(__dirname.replace(".asar", ".asar.unpacked"), "css/dark.css")).toString();
 
-  document.querySelectorAll(".TeamView webview").forEach(webview => {
+  window.document.querySelectorAll(".TeamView webview").forEach(webview => {
     webview.addEventListener('ipc-message', message => {
       if (message.channel == 'didFinishLoading') {
         webview.executeJavaScript(`

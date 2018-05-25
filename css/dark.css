@@ -50,3 +50,18 @@ a:link, a:visited {
   z-index: 200;
   background: #222222;
 }
+.p-flexpane_header {
+  background-color: #363636;
+}
+.p-downloads_list__shift_hint {
+  background: none;
+}
+.p-download_item__actions {
+  background: #222;
+}
+.p-download_item:hover {
+  border-color: #363636;
+}
+.c-email__header_name, .c-email__sender_collapsed, .c-email__title_collapsed {
+  color: #d0d0d0;
+}
